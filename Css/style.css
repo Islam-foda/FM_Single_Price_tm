@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 70px auto;
+    box-shadow: 0px 3px 10px 0px #8d8d8d;
+}
+
+.big {
+    height: 45%;
+    margin-top: 2rem;
+}
+
+section div {
+    color: white;
+    padding: 0rem 2rem;
+}
+
+h2 {
+    color: var(--cyan);
+}
+
+.big h3 {
+    color: var(--Bright-Yellow);
+}
+
+.big p {
+    color: var(--Grayish-Blue);
+    line-height: 30px;
+    /* font-weight: bold; */
+    /* margin-bottom: 2rem; */
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 55%;
+    color: white;
+}
+
+.left h4,
+.right h4 {
+    color: var(--Light-gray);
+}
+
+.left p:first-of-type {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+}
+
+.left p:nth-child(3) {
+    opacity: 50%;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.left p:last-of-type {
+    margin: 20px 0 35px;
+}
+
+.left {
+    background-color: #2bb3b1;
+    border-bottom-left-radius: 10px;
+}
+
+button {
+    background-color: #bfdf32;
+    border: transparent;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    color: var(--Light-gray);
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0px 7px 21px -1px #616161b5;
+    transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.right {
+    background-color: #4abebd;
+    border-bottom-right-radius: 10px;
+}
+
+.right li {
+    color: #a5f0f5;
+    list-style: none;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 0 2px;
+}
+
+footer {
+    margin-top: 20em;
+}
+
+.attribution {
+    /* position: absolute; */
+    font-size: 11px;
+    text-align: center;
+    /* bottom: 0; */
+    margin: 0 auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 425px) {
+    section {
+        width: 350px;
+        font-size: 14px;
+    }
+    .big {
+        height: 53%;
+        margin-top: 1rem;
+    }
+    .left,
+    .right {
+        width: 100%;
+        height: 47%;
+        padding: 0rem 2rem;
+    }
+    .left {
+        border-radius: initial;
+    }
+    .right {
+        border-bottom-left-radius: 10px;
+    }
+    button {
+        height: 3rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:710px) {
+    section {
+        width: 425px;
+        font-size: 14px;
+    }
+    .big,
+    .left,
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .left {
+        border-radius: initial;
+    }
+    .right {
+        border-bottom-left-radius: 10px;
+    }
+}
