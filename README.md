@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Islam-foda/FM_Single_Price_tm)
+- Live Site URL: [Add live site URL here](https://islam-foda.github.io/FM_Single_Price_tm/)
 
 
 ### Built with
@@ -45,6 +45,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Islam Foda](https://github.com/Islam-foda)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
