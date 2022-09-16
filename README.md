@@ -46,5 +46,5 @@ Users should be able to:
 ## Author
 
 - Website - [Islam Foda](https://github.com/Islam-foda)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Islam-Fouda](https://www.frontendmentor.io/profile/Islam-foda)
 
