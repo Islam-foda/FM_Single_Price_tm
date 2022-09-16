@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Islam-foda/FM_Single_Price_tm)
-- Live Site URL: [Add live site URL here](https://islam-foda.github.io/FM_Single_Price_tm/)
+- Solution URL: [Source Code](https://github.com/Islam-foda/FM_Single_Price_tm)
+- Live Site URL: [Live Perview](https://islam-foda.github.io/FM_Single_Price_tm/)
 
 
 ### Built with
